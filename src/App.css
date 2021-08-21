@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  /*text-align: center;*/
 }
 
 .App-logo {
@@ -35,4 +35,40 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+/*Card styling*/
+.container{
+    width: 80%;
+    margin: 0 auto;      
+}
+
+.card-container{
+    display: flex;  
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+
+.card{
+    width: 200px;
+    border: 1px solid gray;   
+    overflow: hidden;  
+    flex: 0 0 30%;
+    margin: 15px;
+}
+
+.card-image{
+    width: 100%;
+    max-height: 200px;            
+}
+
+.card-content{
+    padding: 0 15px 20px;              
+}
+
+.card-btn{
+    background: transparent;
+    border: 1px solid #333;
+    border-radius: 6px;
+    padding: 6px 15px;          
 }
